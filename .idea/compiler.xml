@@ -17,6 +17,20 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+<<<<<<< HEAD
     </annotationProcessing>
+=======
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="automation_selenium" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="automation_selenium" target="1.5" />
+    </bytecodeTargetLevel>
+>>>>>>> b3fa01f08276eaa4911629df70af7fa1c4b71dfd
   </component>
 </project>
