@@ -16,6 +16,7 @@ public class FirstTest {
     public void first() throws Exception{
         System.out.println("Test");
     }
+
    @Test
     public void driver() throws Exception{
        WebDriver driver = new FirefoxDriver();
@@ -27,14 +28,17 @@ public class FirstTest {
 
        element.submit();
 
-       List<WebElement> results = driver.findElements(By.tagName("em"));
+       driver.get("https://github.com/search?utf8=%E2%9C%93&q=automation_selenium");
+
+
+       /*List<WebElement> results = driver.findElements(By.tagName("em"));
        for (WebElement result : results) {
            if (result.getText() != null && result.getText().equalsIgnoreCase("automation_selenium")) {
                System.out.println("Hooray");
            }
        }
 
-
+*/
    }
 
 }
