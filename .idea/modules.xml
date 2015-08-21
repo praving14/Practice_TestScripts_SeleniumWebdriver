@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/javaprojects.iml" filepath="$PROJECT_DIR$/javaprojects.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/automation_selenium.iml" filepath="$PROJECT_DIR$/automation_selenium.iml" />
+>>>>>>> b3fa01f08276eaa4911629df70af7fa1c4b71dfd
     </modules>
   </component>
 </project>
